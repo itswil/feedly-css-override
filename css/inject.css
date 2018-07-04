@@ -1,0 +1,44 @@
+#feedlyPageHolderFX {
+  padding-top: 0 !important;
+}
+#headerBarFX,
+#searchBarFX {
+  display: none;
+}
+#mainBarFX {
+  padding-top: 0;
+}
+h4 {
+  display: none;
+}
+.group-button.button.secondary {
+  display: none;
+}
+.save-for-later {
+  display: none;
+}
+.fx .presentation-0 header {
+  margin-bottom: 0 !important;
+}
+.fx .presentation-0 h1 {
+  margin-top: 0.5rem !important;
+}
+.fx .presentation-0 header div.p-t-2 {
+  padding-top: 0.5rem !important;
+}
+.fx .button-share-to-team {
+  display: none;
+}
+.mark-as-read-button-group.button.secondary,
+.primary.button-icon-only,
+.tertiary.button-icon-only,
+.button-customize-page.button-icon-only {
+  display: none;
+}
+
+/* Article Icons */
+.fx .entry.u0.density-29 .icon-fx-save-to-knowledge-board-ios-md-black,
+.fx .entry.u0.density-29 .condensed-toolbar-icon,
+.fx .entry.u0.density-29 .condensed-toolbar-icon {
+  display: none;
+}
