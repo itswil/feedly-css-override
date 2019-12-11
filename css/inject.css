@@ -1,3 +1,4 @@
+/* Remove top and sticky bar */
 #feedlyPageHolderFX {
   padding-top: 0 !important;
 }
@@ -8,15 +9,13 @@
 #mainBarFX {
   padding-top: 0;
 }
+
+/* Remove sub header */
 h4 {
   display: none;
 }
-.group-button.button.secondary {
-  display: none;
-}
-.save-for-later {
-  display: none;
-}
+
+/* Shrink Header margins */
 .fx .presentation-0 header {
   margin-bottom: 0 !important;
 }
@@ -26,19 +25,20 @@ h4 {
 .fx .presentation-0 header div.p-t-2 {
   padding-top: 0.5rem !important;
 }
-.fx .button-share-to-team {
-  display: none;
-}
-.mark-as-read-button-group.button.secondary,
-.primary.button-icon-only,
-.tertiary.button-icon-only,
-.button-customize-page.button-icon-only {
+
+/* Simplify top-right contorls */
+button[title="Mark as Read"],
+button[title="Create Team Newsletter"],
+button[title="Share with teammates"],
+button[title="Change layout"],
+button[title="More options"] {
   display: none;
 }
 
-/* Article Icons */
-.fx .entry.u0.density-29 .icon-fx-save-to-knowledge-board-ios-md-black,
-.fx .entry.u0.density-29 .condensed-toolbar-icon,
-.fx .entry.u0.density-29 .condensed-toolbar-icon {
+/* Remove article icons */
+.save-for-later {
   display: none;
+}
+.entry:hover .CondensedToolbar {
+  display: none !important;
 }
