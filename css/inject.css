@@ -2,12 +2,14 @@
 #feedlyPageHolderFX {
   padding-top: 0 !important;
 }
-#headerBarFX,
-#searchBarFX {
+#headerBarFX {
+  position: static;
+}
+#topHeaderBarFX {
   display: none;
 }
-#mainBarFX {
-  padding-top: 0;
+#feedlyPageFX .header {
+  display: none;
 }
 
 /* Remove sub header */
